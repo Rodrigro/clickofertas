@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Contenido from './components/Contenido';
+import Boton_comprar from './components/Boton_comprar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Navbar />
+    <Contenido />
+    <Boton_comprar />
   </React.StrictMode>
 );
 
