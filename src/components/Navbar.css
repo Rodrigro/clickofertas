@@ -1,0 +1,26 @@
+@media  (max-width: 1600px) {
+
+    .menuNav{
+        background: rgb(240, 35, 35);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }   
+    .img-carro{
+        margin-top: -10px;
+        width: 20px;
+    }
+}
+@media  (min-width: 400px) {
+
+    .menuNav{
+        background: rgb(240, 35, 35);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }   
+    .img-carro{
+        margin-top: -10px;
+        width: 20px;
+    }
+}

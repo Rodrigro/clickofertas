@@ -1,0 +1,12 @@
+* { 
+    margin-top: 10px;
+    text-decoration: none;
+}
+.boton_comprar{
+    height: 30px;
+    color: rgb(29, 32, 31);
+    background-color: rgb(44, 219, 102);
+    border-style:none;
+    border-radius: 5px;
+}
+
